@@ -1,13 +1,19 @@
 //
 //  ViewController.h
-//  Pong Tutorial
+//  Pong
 //
-//  Created by Matt Heaney on 11/09/2013.
-//  Copyright (c) 2013 Matt Heaney. All rights reserved.
+//  Created by Jigar Revar on 2/2/15.
+//  Copyright (c) 2015 jigar revar. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    
+    
+    IBOutlet UIImageView *AnimatedBackground;
+    
+}
 
 @end
